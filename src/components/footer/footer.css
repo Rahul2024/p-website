@@ -1,0 +1,88 @@
+/* src/components/Footer.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 110px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-container > div {
+  margin: 20px;
+}
+
+.about, .quick-links, .social-media {
+  flex: 1;
+  min-width: 200px;
+}
+
+.about h3, .quick-links h3, .social-media h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin: 10px 0;
+}
+
+.quick-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #00aaff;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #00aaff;
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-bottom p:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
